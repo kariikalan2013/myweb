@@ -16,6 +16,7 @@ a {
 header {
     background-color:darkmagenta ;
     height: 15vh;
+    width: 100%;
 }
 
 nav {
@@ -47,12 +48,7 @@ button {
     margin-left: 5px;
     
 }
-.1{
-     background-attachment: fixed;
-    height: 75vh;
-    background-size: cover;
-    background-image: url(https://img.freepik.com/premium-photo/cloud-computing-technology-online-data-storage-shrewd-business-network-concept_31965-32111.jpg);
-}
+
 p{
     text-align: center;
     padding-top: 15%;
@@ -165,6 +161,22 @@ p{
             }
 
 
+        }
+
+
+        @media(max-width:778px){
+        .myimg{
+               width: 200px;
+            }
+            header{
+                width: 100%;
+            }
+            .myimg{
+                width: 100px;
+            }
+            .nav-links{
+                display: none;
+            }
         }
 
 
